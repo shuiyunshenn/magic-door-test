@@ -1,0 +1,23 @@
+.list-item {
+  position: relative;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  background: #ffffff;
+  padding: 12px;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+  &:hover {
+    transform: scale(1.01) translateY(-5px);
+  }
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.last-viewed-label {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+}

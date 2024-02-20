@@ -1,0 +1,34 @@
+.global-layout {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  max-width: 1080px;
+  min-width: 540px;
+  margin: 5vh auto;
+  border-radius: 16px;
+  background: #f7f7f7;
+  overflow: hidden;
+  padding: 20px;
+
+  .header {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    margin-bottom: 20px;
+
+    .back-button {
+      margin-right: 12px;
+    }
+
+    .title {
+      font-weight: 600;
+      font-size: 20px;
+    }
+  }
+
+  .content {
+    border-radius: 6px;
+    flex-grow: 1;
+    overflow: auto;
+  }
+}

@@ -1,0 +1,30 @@
+.name {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 12px;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.col {
+  min-width: 25%;
+  max-width: 100%;
+  margin-right: 24px;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+.label {
+  display: block;
+  margin-bottom: 4px;
+  color: #666666;
+}
